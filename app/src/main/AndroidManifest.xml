@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".recyclerView.RecyclerView_main"></activity>
+        <activity android:name=".moving_data_between_activity.main_actvity"/>
         <activity android:name=".moving_data_between_activity.sec_activity_data" />
         <activity android:name=".alert_Dialogue" />
         <activity android:name=".lifeCycleActivity" />
@@ -20,7 +20,7 @@
         <activity android:name=".toggle_button" />
         <activity android:name=".radio_button" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".moving_data_between_activity.main_actvity">
+        <activity android:name=".recyclerView.recyclerViewMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

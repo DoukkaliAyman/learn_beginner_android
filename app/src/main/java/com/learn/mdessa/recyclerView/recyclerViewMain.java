@@ -14,7 +14,7 @@ import java.util.List;
 import Adapter.myAdapter;
 import Model.listItems;
 
-public class RecyclerView_main extends AppCompatActivity {
+public class recyclerViewMain extends AppCompatActivity {
     private RecyclerView recyclerView;
     private List<listItems> listItems;
     private RecyclerView.Adapter adapter;
@@ -29,11 +29,12 @@ public class RecyclerView_main extends AppCompatActivity {
         listItems = new ArrayList<>();
         for (int x =1;x<12;x++){
             listItems listItems1 = new listItems(
-                    "Ayman Doukkali" + (x+1),
-                    "I need to more learn about android"
+                    "name " + (x+1),
+                    "description"
             );
            listItems.add(listItems1);
         }
         adapter = new myAdapter(this,listItems);
+        recyclerView.setAdapter(adapter);
     }
 }

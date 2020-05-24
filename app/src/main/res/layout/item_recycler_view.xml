@@ -4,7 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".recyclerView.RecyclerView_main">
+    android:padding="8dp"
+    android:layout_margin="@dimen/cardview_compat_inset_shadow"
+    tools:context=".recyclerView.recyclerViewMain">
+    <ImageView
+
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_height="100dp"
+        android:contentDescription="TODO" />
     <LinearLayout
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -36,13 +45,7 @@
 
     </LinearLayout>
 
-    <ImageView
 
-        android:layout_centerHorizontal="true"
-        android:layout_width="100dp"
-        android:src="@mipmap/ic_launcher_round"
-        android:layout_height="100dp"
-        android:contentDescription="TODO" />
 
 
 

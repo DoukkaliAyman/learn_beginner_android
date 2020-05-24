@@ -35,10 +35,11 @@ public class myAdapter extends RecyclerView.Adapter<myAdapter.viewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull myAdapter.viewHolder viewHolder, int position) {
+    public void onBindViewHolder(@NonNull myAdapter.viewHolder holder, int position) {
 
-listItems listItems = new listItems("ayman doukkali",
-        )
+    listItems listItems = list.get(position);
+        holder.title.setText(listItems.getTitle());
+        holder.descr.setText(listItems.getDescr());
 
     }
 
