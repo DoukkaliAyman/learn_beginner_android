@@ -1,4 +1,4 @@
-package com.learn.storage;
+package com.games.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
