@@ -1,4 +1,4 @@
-package com.games.myapplication;
+package com.games.recycler_sqlite;
 
 import org.junit.Test;
 

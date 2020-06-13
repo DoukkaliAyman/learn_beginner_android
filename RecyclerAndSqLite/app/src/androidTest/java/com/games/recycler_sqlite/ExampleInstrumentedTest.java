@@ -1,4 +1,4 @@
-package com.games.myapplication;
+package com.games.recycler_sqlite;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.games.myapplication", appContext.getPackageName());
+        assertEquals("com.games.recycler_sqlite", appContext.getPackageName());
     }
 }
